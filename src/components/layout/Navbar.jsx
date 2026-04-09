@@ -8,9 +8,9 @@ function Nav() {
 	return (
 		<nav className="hidden md:flex flex-1 justify-end gap-8 items-center">
 			<div className="flex items-center gap-9">
-				{links.map((link, index) => (
+				{links.map((link) => (
 					<a
-						key={index}
+						key={link.href}
 						href={link.href}
 						className="text-[#1b0e11] dark:text-white text-sm font-medium hover:text-primary transition-colors"
 					>

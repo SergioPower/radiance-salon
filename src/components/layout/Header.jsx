@@ -10,6 +10,7 @@ export default function Header({ title }) {
 				{/* Logo / título */}
 				<div className="flex items-center gap-4 text-primary">
 					<Logo />
+
 					<h2 className="text-[#1b0e11] dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">{title}</h2>
 
 				</div>
