@@ -1,10 +1,7 @@
 import Button from "../../components/ui/Button"
 import fondoHero from "../../assets/img/bg-hero.png"
 
-export default function Hero() {
-	const title = "Descubre Tu Luminosidad Natural"
-	const description = "Disfruta de tratamientos de belleza de lujo personalizados para ti. Tu viaje hacia el cuidado personal y los mimos profesionales comienza aquí."
-
+export default function Hero({ title, description }) {
 	return (
 		<section id="hero" className="py-10">
 			<div className="@container">
