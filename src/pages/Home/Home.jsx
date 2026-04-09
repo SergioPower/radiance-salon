@@ -2,6 +2,7 @@ import Header from "../../components/layout/Header"
 import Hero from "./Hero"
 import OurStory from "./OurStory"
 import Services from "./Services"
+import Testimonials from "./Testimonials"
 
 
 export default function Home() {
@@ -22,6 +23,10 @@ export default function Home() {
 				<Services
 					title={"Our Signature Services"}
 					description={"Discover our range of professional treatments designed to enhance your natural look."}
+				/>
+
+				<Testimonials
+					title={"Qué Dicen Nuestros Clientes"}
 				/>
 
 			</main>

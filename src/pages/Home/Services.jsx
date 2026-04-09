@@ -1,4 +1,4 @@
-import Card from "./Card"
+import Card from "./CardService"
 import imgHair from "../../assets/img/img-Services-Hair.png"
 import imgNail from "../../assets/img/img-Services-Nail.jpg"
 import imgMakeup from "../../assets/img/img-Services-Makeup.jpg"
