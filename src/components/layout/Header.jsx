@@ -1,16 +1,23 @@
 import Navbar from "./Navbar"
+import Logo from "./../ui/Logo"
 
-export default function Header({ title, links }) {
+export default function Header({ title }) {
+
 	return (
-		<header className="flex items-center justify-between px-6 py-4 bg-white dark:bg-slate-800 shadow-md">
+		<header className="sticky top-0 z-50 w-full border-b border-solid border-[#f3e7ea] dark:border-[#3a2228] bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-6 md:px-20 lg:px-40 py-3">
 
-			{/* Logo / título */}
-			<h1 className="text-xl font-bold text-slate-800 dark:text-white">
-				{title}
-			</h1>
+			<div className="flex items-center justify-between max-w-300 mx-auto">
+				{/* Logo / título */}
+				<div className="flex items-center gap-4 text-primary">
+					<Logo />
+					<h2 className="text-[#1b0e11] dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">{title}</h2>
 
-			{/* Navbar */}
-			<Navbar links={links} />
+				</div>
+
+				{/* Navbar */}
+				<Navbar />
+			</div>
+
 		</header>
 	)
 }
