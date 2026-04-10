@@ -28,7 +28,7 @@ export default function Home() {
 				/>
 
 				<Testimonials
-					title={"Qué Dicen Nuestros Clientes"}
+					title={"Testimonios de Clientes"}
 				/>
 
 				<FinalCTA

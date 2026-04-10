@@ -18,22 +18,25 @@ export default function Footer() {
 						</div>
 						<span className="font-bold text-lg text-[#1b0e11] dark:text-white">Radiance Salon</span>
 					</div>
-					<p className="text-sm text-[#974e60] dark:text-[#c4a1a9]">Luxury beauty sanctuary where elegance meets expertise.
-						Dedicated to making you feel radiant every day.</p>
+					<p className="text-sm text-[#974e60] dark:text-[#c4a1a9]">
+						Un refugio de belleza de lujo donde la elegancia se une a la experiencia. Dedicado a
+						hacer que te sientas radiante cada día..
+					</p>
 				</div>
 
+				{/* Enlaces */}
 				<div>
-					<h4 className="font-bold mb-4">Quick Links</h4>
+					<h4 className="font-bold mb-4">Enlaces Rápidos</h4>
 					<ul className="flex flex-col gap-2 text-sm text-[#974e60] dark:text-[#c4a1a9]">
-						<li><a className="hover:text-primary" href="#">Our Services</a></li>
-						<li><a className="hover:text-primary" href="#">Pricing List</a></li>
-						<li><a className="hover:text-primary" href="#">Gift Cards</a></li>
-						<li><a className="hover:text-primary" href="#">Privacy Policy</a></li>
+						<li><a className="hover:text-primary" href="#services">Nuestros Servicios</a></li>
+						<li><a className="hover:text-primary" href="#">Lista de Precios</a></li>
+						<li><a className="hover:text-primary" href="#">Tarjetas de Regalos</a></li>
+						<li><a className="hover:text-primary" href="#">Política de Privacidad</a></li>
 					</ul>
 				</div>
 
 				<div>
-					<h4 className="font-bold mb-4">Contact</h4>
+					<h4 className="font-bold mb-4">Contacto</h4>
 					<ul className="flex flex-col gap-2 text-sm text-[#974e60] dark:text-[#c4a1a9]">
 						<li className="flex items-center gap-2"><span className="material-symbols-outlined text-xs">location_on</span> 123
 							Beauty Lane, Glow City</li>
@@ -47,9 +50,9 @@ export default function Footer() {
 				<div>
 					<h4 className="font-bold mb-4">Hours</h4>
 					<ul className="flex flex-col gap-2 text-sm text-[#974e60] dark:text-[#c4a1a9]">
-						<li>Mon - Fri: 9am - 8pm</li>
-						<li>Saturday: 10am - 6pm</li>
-						<li>Sunday: Closed</li>
+						<li>Lun - Vie: 9am - 8pm</li>
+						<li>Sábado: 10am - 6pm</li>
+						<li>Domingo: Cerrado</li>
 					</ul>
 				</div>
 
@@ -58,8 +61,8 @@ export default function Footer() {
 
 
 			<div
-				className="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-[#f3e7ea] dark:border-[#3a2228] text-center text-xs text-[#974e60]">
-				© 2024 Radiance Salon. All rights reserved.
+				className="max-w-300 mx-auto mt-12 pt-8 border-t border-[#f3e7ea] dark:border-[#3a2228] text-center text-xs text-[#974e60]">
+				© 2025 Radiance Salon. Todos los derechos reservados.
 			</div>
 		</footer>
 	)
