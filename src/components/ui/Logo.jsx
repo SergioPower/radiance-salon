@@ -1,11 +1,11 @@
 function Logo({
-	className = "w-8 h-8 text-primary",
+	className = "w-8 h-8 text-primary", logo
 }) {
 	return (
 		<svg
 			fill="none"
 			viewBox="0 0 48 48"
-			xmlns="http://www.w3.org/2000/svg"
+			src={logo}
 			className={className}
 		>
 			<path
