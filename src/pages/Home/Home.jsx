@@ -1,3 +1,5 @@
+import LogoHeader from "./../ui/Logo"
+
 import Header from "../../components/layout/Header"
 import Hero from "./Hero"
 import OurStory from "./OurStory"
@@ -10,7 +12,10 @@ import Footer from "./../../components/layout/Footer"
 export default function Home() {
 	return (
 		<>
-			<Header title="Radiance Salon" />
+			<Header
+				logo={LogoHeader}
+				title="Radiance Salon"
+			/>
 			<main className="max-w-300 mx-auto px-4 sm:px-6 lg:px-8">
 				<Hero
 					title={"Descubre Tu Luminosidad Natural"}

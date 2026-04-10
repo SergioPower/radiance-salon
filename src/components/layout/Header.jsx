@@ -1,7 +1,6 @@
 import Navbar from "./Navbar"
-import Logo from "./../ui/Logo"
 
-export default function Header({ title }) {
+export default function Header({ logo, title }) {
 
 	return (
 		<header className="sticky top-0 z-50 w-full border-b border-solid border-[#f3e7ea] dark:border-[#3a2228] bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-6 md:px-20 lg:px-40 py-3">
