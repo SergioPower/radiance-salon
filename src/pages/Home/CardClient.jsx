@@ -17,6 +17,7 @@ export default function CardClient({ rating, quote, name, role, avatar }) {
 			<p className="text-lg italic text-[#1b0e11] dark:text-white font-medium">
 				{quote}
 			</p>
+
 			<div className="flex items-center gap-4 mt-4">
 				<img
 					src={avatar}
