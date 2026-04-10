@@ -1,4 +1,4 @@
-import LogoHeader from "./../ui/Logo"
+import LogoHeader from "./../../assets/logo-home.svg"
 
 import Header from "../../components/layout/Header"
 import Hero from "./Hero"

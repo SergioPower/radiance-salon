@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import Logo from "../../components/ui/Logo"
 
 export default function Header({ logo, title }) {
 
