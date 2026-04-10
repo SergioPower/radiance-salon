@@ -3,6 +3,8 @@ import Hero from "./Hero"
 import OurStory from "./OurStory"
 import Services from "./Services"
 import Testimonials from "./Testimonials"
+import FinalCTA from "./FinalCTA"
+import Footer from "./../../components/layout/Footer"
 
 
 export default function Home() {
@@ -29,7 +31,13 @@ export default function Home() {
 					title={"Qué Dicen Nuestros Clientes"}
 				/>
 
+				<FinalCTA
+					title={"¿Lista para un Glow-up?"}
+					desc={"Reserva tu sesión hoy mismo y descubre la versión más radiante de ti mismo. Estamos abiertos de lunes a sábado."}
+				/>
 			</main>
+
+			<Footer />
 		</>
 	)
 }
